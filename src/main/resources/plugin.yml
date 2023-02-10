@@ -1,0 +1,13 @@
+name: DNPlugin
+version: '${project.version}'
+main: de.airoyster.dn.Main
+api-version: 1.19
+commands:
+  day:
+  night:
+
+permissions:
+  system.day:
+    default: op
+  system.night:
+    default: op
